@@ -1,14 +1,11 @@
 name: Laravel Workflow
-on: 
-push:
-  branches:
-    - master
+on: push
 
 jobs:
   build:
     name: Laravel Build
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
 
 
